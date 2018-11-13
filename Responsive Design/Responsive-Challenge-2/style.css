@@ -1,0 +1,145 @@
+/* ///////////////////////////media query//////////////////////////////////////////////// */
+/* =======================mobile start==================================== */
+@media(max-width:600px){
+    .header{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-column:1/2;
+        
+        
+    }
+
+    .icon1{
+        order: 2;
+        margin: 10px;
+        
+        
+    }
+    .icon2{
+        display: none;
+    }
+
+    .social_icons{
+        /* width: 1fr; */
+        display: none;
+    }
+    .nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column: 1/5;
+        order: 3;
+        text-align: center;
+        
+    }
+    .cars{
+        display: none;
+    }
+
+    .reveiws{
+        display: none;
+    }
+
+    .longform{
+        display: none;
+    }
+
+    .youtube_video{
+        margin: 5px;
+    }
+
+    .section_3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .heading_recommended{
+        grid-column: 1/3;
+        height: 10%;
+    }
+    .recommend{
+        padding: 5px;
+        margin: 5px;
+    }
+    .wrapper{
+        text-align: center;
+        margin-top: 10px;
+        background-color: black;
+        color: white;
+    }
+
+}
+
+/* ==========================mobile end======================================== */
+
+/* ============================tablet start======================================= */
+@media(min-width:768px){
+    .header{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        
+    }
+    .social_icons{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .cars{
+        display: none;
+    }
+    .reveiws{
+        display: none;
+    }
+    .longform{
+        display: none;
+    }
+   
+    .social{
+        text-align: right;
+    }
+    .nav{
+        text-align: center;
+    }
+    .recommend{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    
+}
+/* ============================tablet ends======================================= */
+/* ============================desktop start======================================= */
+@media(min-width:993px){
+    .section_3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+       
+    }
+    .recommend{
+        margin: 5px;
+        padding: 5px;
+    }
+    .aside{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .privacy_policy{
+        grid-column: 2/3;
+    }
+}
+/* ============================desktop start======================================= */
+/* ///////////////////////////media query//////////////////////////////////////////////// */
+/* html body{ */
+    /* margin: 0;
+    padding: 0; */
+    /* width: 100%; */
+/* } */
+
+img{
+    display: block; 
+    height: auto;
+     width:100%;
+}

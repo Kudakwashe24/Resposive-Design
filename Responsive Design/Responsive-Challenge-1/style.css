@@ -1,0 +1,103 @@
+/* =====================mobile start============================ */
+@media (max-width: 600px){
+      
+    .container2{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+       
+    }
+
+   
+    .container3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .backColor{
+        border: 0.3mm solid black;
+        background-color: red;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+
+    }
+    
+}
+/* =====================mobile end============================== */
+
+/* =====================tablet start============================ */
+@media (min-width:768px){
+    .container2{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+       
+    }
+
+   
+    .container3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .backColor{
+        border: 0.3mm solid black;
+        background-color: blue;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+
+    }
+    
+}
+/* =====================tablet end============================== */
+
+/* =====================desktop start============================ */
+@media (min-width:992px){
+    .container2{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+       
+    }
+
+   
+    .container3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .backColor{
+        border: 0.3mm solid black;
+        background-color:green;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+
+    }
+    
+}
+/* =====================desktop end============================== */
+/* =====================large desktop start============================ */
+@media (min-width:1200px){
+    .container2{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+       
+    }
+
+   
+    .container3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .backColor{
+        border: 0.3mm solid black;
+        background-color: orange;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+
+    }
+    
+}
+/* =====================large desktop end============================== */
